@@ -1,0 +1,21 @@
+{
+    "name": "kiran/php-xtend-validator",
+    "description": "Validator plugin using php8.1",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Xtend\\Validator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kiran.jrk",
+            "email": "kiran.jrk@abhibus.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "psr/container": "2.0.x-dev"
+    }
+}
